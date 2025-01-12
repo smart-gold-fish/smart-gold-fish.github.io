@@ -11,15 +11,24 @@ header {
 }
 
 nav {
-    margin: 10px 0;
+    width: 200px; /* Ширина навигационной панели */
+    background-color: #333; /* Цвет фона */
+    position: fixed; /* Фиксированное положение */
+    height: 100%; /* Высота на всю страницу */
 }
 
 nav a {
-    color: white;
-    margin-right: 15px;
-    text-decoration: none;
+    display: block; /* Блоковый элемент для ссылки */
+    color: white; /* Цвет текста */
+    padding: 15px; /* Внутренний отступ */
+    text-decoration: none; /* Убираем подчеркивание */
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: #575757; /* Цвет фона при наведении */
+}
+
+main {
+    margin-left: 220px; /* Отступ для основного контента, чтобы не перекрывался навигацией */
+    padding: 20px; /* Внутренний отступ основного контента */
 }
